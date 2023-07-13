@@ -1,0 +1,11 @@
+decisionTree,9,68,8072,153
+logisticRegression,8,55,5595,611
+knn,1,80,8314,0
+svm_linear,6,62,6229,507
+svm_2,9,62,6819,413
+svm_3,6,70,7604,204
+svm_rbf,7,60,6882,443
+naiveBayes,3,11,1526,61
+random_forest,5,57,5516,220
+ridgeClassifierCV,3,55,5227,497
+passiveAggressiveClassifier,2,50,6133,105
