@@ -29,5 +29,7 @@ df.drop(df.columns[[0, 2, 3, 4, 5, 6]], axis=1, inplace=True)
 df['Time'] = pd.to_datetime(df['Time'], format='%Y-%m-%d  %H:%M:%S.%f')
 df.index = df['Time']
 df = df.drop('Time', axis=1)
-df = df.Length.resample('1s').sum()
+df = df.Length.resample('100L').sum()
 print(df)
+
+df.to_csv('cleaned.csv')
